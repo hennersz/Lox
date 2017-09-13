@@ -1,12 +1,13 @@
 # Lox
 A lox interpreter written in java following allong the book [Crafting Interpreters](http://www.craftinginterpreters.com)
 
-## Prerequisits
+## Dependencies
 * Java
 * Ant
 
-## Build
+
+## Build
 `$ant`
 
-## Run
+## Run
 `$./run`
