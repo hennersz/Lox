@@ -1,0 +1,15 @@
+<project name="lox" default="compile" basedir=".">
+  <target name="init">
+    <property name="sourceDir" value="src"/>
+    <property name="outputDir" value="classes"/>
+  </target>
+  <target name="clean" depends="init">
+    <delete dir="${outputDir}"/>
+  </target>
+  <target name="prepare" depends="clean">
+    <mkdir dir="${outputDir}"/>
+  </target>
+  <target name="compile" depends="prepare">
+    <javac debug="on" srcdir="${sourceDir}" destdir="${outputDir}"/>
+  </target>
+</project>
