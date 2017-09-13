@@ -7,7 +7,7 @@ A lox interpreter written in java following allong the book [Crafting Interprete
 
 
 ## Build
-`$ant`
+`$ ant`
 
 ## Run
-`$./run`
+`$ ./run`
